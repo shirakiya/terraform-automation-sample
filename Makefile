@@ -6,6 +6,9 @@ init:
 fmt:
 	$(RUN_CONTEXT) terraform fmt -recursive
 
+validate:
+	$(RUN_CONTEXT) terraform validate
+
 plan:
 	$(RUN_CONTEXT) terraform plan
 
